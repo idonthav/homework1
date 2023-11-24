@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Please enter the 2 numbers you would like to add below</h1>
+        <div class="label-container">
+            <label for="">Enter first number:</label>
+            <input type="text" class="input-number" placeholder="Enter first number" id="firstNum">
+        </div>
+
+        <span class="add">+</span>
+
+        <div class="label-container">
+            <label for="">Enter second numbers:</label>
+            <input type="text" class="input-number" placeholder="Enter second number" id="secondNum">
+        </div>
+
+        <button class="btn-submit" onclick="CaculateSum()">Submit</button>
+
+        <h2>Result = <span id="result">?</span></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

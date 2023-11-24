@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+ 
+  .container {
+    text-align: left; /* 左对齐 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* 水平居中对齐 */
+  }
+  
+  h1{
+    margin-bottom: 80px;
+  }
+  .label-container {
+    display: flex;
+    align-items: center; /* 水平和垂直居中对齐 */
+    margin-bottom: 20px; /* 垂直间距 */
+  }
+  
+  .label-container label{
+    width: 200px;
+  }
+
+  .input-number {
+    width: 200px; /* 调整文本框宽度 */
+    padding: 5px;
+  }
+  
+  .add {
+    font-size: 3.5em;
+    margin: 5px 10px 20px 290px; /* 调整“+”的间距 */
+  }
+  
+  .btn-submit{
+    margin-top: 10px; /* 调整按钮的上边距 */
+    margin: 50px 10px 5px 260px;
+    font-size: 1.2em; /* 设置按钮的字体大小 */
+    background-color: #4CAF50; /* 设置按钮的背景颜色 */
+    color: white; /* 设置按钮的文本颜色 */
+    padding: 10px 20px; /* 设置按钮的内边距，控制按钮大小 */
+    border: none; /* 去除按钮边框 */
+    border-radius: 5px; /* 设置按钮的边框圆角 */
+    cursor: pointer; /* 添加指针样式 */
+  }
+  
