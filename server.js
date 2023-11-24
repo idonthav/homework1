@@ -3,7 +3,7 @@ const app = express();
 const path = require("path");
 const { exec } = require('child_process');
 
-const PORT = process.env.PORT || 5500;
+const PORT = process.env.PORT || 5000;
 
 app.use(express.static(path.join(__dirname, "public")));
 

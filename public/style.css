@@ -15,12 +15,12 @@ body {
   }
   
   h1{
-    margin-bottom: 80px;
+    margin-bottom: 30px;
   }
   .label-container {
     display: flex;
     align-items: center; /* 水平和垂直居中对齐 */
-    margin-bottom: 20px; /* 垂直间距 */
+    margin-bottom: 2px; /* 垂直间距 */
   }
   
   .label-container label{
@@ -34,18 +34,31 @@ body {
   
   .add {
     font-size: 3.5em;
-    margin: 5px 10px 20px 290px; /* 调整“+”的间距 */
+    margin: 5px 10px 5px 290px; /* 调整“+”的间距 */
   }
   
-  .btn-submit{
+  .btn-submit, .btn-binary, .btn-clear{
     margin-top: 10px; /* 调整按钮的上边距 */
-    margin: 50px 10px 5px 260px;
-    font-size: 1.2em; /* 设置按钮的字体大小 */
-    background-color: #4CAF50; /* 设置按钮的背景颜色 */
-    color: white; /* 设置按钮的文本颜色 */
-    padding: 10px 20px; /* 设置按钮的内边距，控制按钮大小 */
+    margin: 30px 10px 5px 230px;
+    font-size: 1em; /* 设置按钮的字体大小 */
+    color: white;
+    padding: 10px 20px; 
     border: none; /* 去除按钮边框 */
     border-radius: 5px; /* 设置按钮的边框圆角 */
     cursor: pointer; /* 添加指针样式 */
+    width: 150px;
   }
-  
+
+  .btn-submit{
+    background-color: #4CAF50;
+  }
+  .btn-binary{
+    /* margin: 50px 10px 5px 252px; */
+    background-color: rgb(209, 93, 112);
+  }
+  .btn-clear{
+    background-color: red;
+  }
+h2{
+  margin-bottom: 5px;
+}
